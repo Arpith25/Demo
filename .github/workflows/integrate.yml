@@ -1,0 +1,19 @@
+name: CI
+
+on:
+  push_request:
+    branches: [ main ]
+
+jobs:
+  demo_push_test:
+    runs_on: windows-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-python@v2
+        with:
+          python-version: 3.12.3
+      - run: |
+
+      
+      
+      
