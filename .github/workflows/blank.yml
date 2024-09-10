@@ -1,5 +1,4 @@
 name: CI
-
 on:
   push:
     branches:
@@ -9,11 +8,8 @@ jobs:
   push1:
     runs-on: windows-latest
     steps:
-      - uses: actions/checkout@v2
-      - uses: actions/setup-python
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v4
         with:
           python-version: 3.12.3
-      - run: |
-      
-  
-    
+      - run: | 
