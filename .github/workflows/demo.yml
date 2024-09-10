@@ -1,6 +1,6 @@
 name: CI
 on: 
-  push-request
+  push
 jobs:
   test_push_request:
     runs-on: windows-latest
