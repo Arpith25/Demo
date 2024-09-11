@@ -13,4 +13,4 @@ jobs:
         with:
           python-version: '3.12.3'
       - run: python -m test
-      
+      - run: python build
