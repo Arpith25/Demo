@@ -13,4 +13,4 @@ jobs:
         with:
           python-version: '3.12.3'
       - run: python -m test
-      - run: python Untitled-1.py
+      - run: python test_Untitled-1.py
