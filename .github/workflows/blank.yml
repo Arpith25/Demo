@@ -12,5 +12,5 @@ jobs:
       - uses: actions/setup-python@v3
         with:
           python-version: '3.12.3'
-      - run: python -m test
+      - run: pytest
       - run: python test_Untitled-1.py
