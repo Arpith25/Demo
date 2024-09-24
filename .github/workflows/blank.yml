@@ -12,5 +12,9 @@ jobs:
       - uses: actions/setup-python@v3
         with:
           python-version: '3.12.3'
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install pytest
+          pip install --no-deps -r requirements.txt
       - run: pytest
-      - run: python test_Untitled-1.py
